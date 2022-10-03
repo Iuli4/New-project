@@ -20,5 +20,31 @@
 img{
     display: flex;
 }
+.div1{
+    display:flex;
+    padding-bottom: 200px;
+}
+.box{
+    position:absolute;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    width: 100px;
+    height:100px;
+    margin-left: 40px;
+    background-color:lightpink;
+    transition: 2s;
+    z-index: 1;
+}
+.div3{
+    z-index:2;
+    background-color:lavender;
+}
+.div3:hover{
+margin-left: 170px;
+}
 
+
+.box:hover {
+    cursor: pointer;
+}
 
